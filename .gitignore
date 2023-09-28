@@ -1,0 +1,44 @@
+# Ignore Python byte code files, virtual environment folders, and cache folders
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+.idea/
+.vscode/
+
+# Ignore user-specific IDE and editor configuration files
+*.swp
+*.swo
+*.swn
+
+# Ignore the docs folder within the static folder
+/static/docs/
+
+# Node.js related files
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Dependency directories
+**/node_modules/
+**/bower_components/
+
+# npm's cache
+.npm
+
+# Optional npm cache directory
+.npm/
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Yarn Integrity file
+.yarn-integrity
+.DS_Store
