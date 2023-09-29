@@ -1,0 +1,265 @@
+<!-- Single Post Page -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Ismail Khan, Software Engineer from Toronto, Canada."
+        />
+        <meta name="author" content="Ismail Khan" />
+        <meta
+            name="keywords"
+            content="Software Engineer, Web Developer, Full-Stack Developer, JavaScript, Python, Front-End, Back-End, DevOps, API Integration, Toronto, Canada"
+        />
+        <meta name="robots" content="index, follow" />
+        <!-- Add the favicon -->
+        <link rel="icon" type="image/jpeg" href="/static/imgs/ik-favicon.jpg" />
+
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="/static/dist/css/output.css"
+        />
+        <script
+            src="https://kit.fontawesome.com/3b7e1f5bdc.js"
+            crossorigin="anonymous"
+        ></script>
+
+        <title>Ismail Khan</title>
+    </head>
+
+    <body class="flex flex-col min-h-screen bg-blue-50">
+        <header class="py-4 bg-blue-900 text-slate-300 font-mono">
+            <div>
+                <nav
+                    class="container mx-auto max-w-5xl flex justify-between items-center"
+                >
+                    <div>
+                        <a href="/" class="flex items-center">
+                            <img
+                                src="/static/imgs/ik-icon.svg"
+                                alt="Ismail Khan SVG Image"
+                                class="w-8 h-8 mr-2"
+                            />
+                            <h1
+                                class="font-semibold text-2xl uppercase hover:text-orange-500 hover:underline"
+                            >
+                                Ismail Khan
+                            </h1>
+                        </a>
+                    </div>
+                    <ul class="flex space-x-4">
+                        <li>
+                            <a
+                                href="/cv/"
+                                class="font-bold hover:bg-orange-500 hover:text-white rounded-md px-3 py-2"
+                                >CV</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="/projects/"
+                                class="font-bold hover:bg-orange-500 hover:text-white rounded-md px-3 py-2"
+                                >Projects</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="/blog/"
+                                class="font-bold hover:bg-orange-500 hover:text-white rounded-md px-3 py-2"
+                                >Blog</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="container mx-auto max-w-5xl flex-grow">
+            <!-- This is where the child content of the page will go -->
+            
+<div>
+    <!-- Breadcrumb -->
+    <nav
+        class="flex px-5 py-3 bg-white rounded-lg shadow-md my-2"
+        aria-label="Breadcrumb"
+    >
+        <ol class="inline-flex items-center space-x-1 md:space-x-3">
+            <li class="inline-flex items-center">
+                <a
+                    href="/blog/"
+                    class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white"
+                >
+                    <svg
+                        class="w-3 h-3 mr-2.5"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                    >
+                        <path
+                            d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z"
+                        />
+                    </svg>
+                    Blog Home
+                </a>
+            </li>
+            <li aria-current="page">
+                <div class="flex items-center">
+                    <svg
+                        class="w-3 h-3 mx-1 text-gray-400"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 6 10"
+                    >
+                        <path
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="m1 9 4-4-4-4"
+                        />
+                    </svg>
+                    <span
+                        class="ml-1 text-sm font-medium text-gray-500 md:ml-2 dark:text-gray-400"
+                        >My Sample Post Title, and the Best Way to Style It in Markdown</span
+                    >
+                </div>
+            </li>
+        </ol>
+    </nav>
+
+    <div class="bg-white rounded-lg shadow-md px-5 py-3">
+        <!-- Blog Title -->
+        <h1 class="text-3xl font-semibold mb-4">My Sample Post Title, and the Best Way to Style It in Markdown</h1>
+
+        <!-- Metadata -->
+        <div class="flex flex-wrap items-center mb-4">
+            <span class="text-gray-600 text-sm"> 2023-09-28 </span>
+            <span class="text-gray-600 text-sm ml-4">
+                Tags: 
+                <span
+                    class="inline-block bg-blue-500 text-white rounded-full px-2 py-1 text-xs font-semibold"
+                    >python</span
+                >
+                
+                <span
+                    class="inline-block bg-blue-500 text-white rounded-full px-2 py-1 text-xs font-semibold"
+                    > flask</span
+                >
+                
+                <span
+                    class="inline-block bg-blue-500 text-white rounded-full px-2 py-1 text-xs font-semibold"
+                    > markdown</span
+                >
+                
+            </span>
+        </div>
+
+        <!-- Horizontal Line -->
+        <hr class="my-6 border-t-2 border-gray-300" />
+
+        <!-- Blog Content -->
+        <div class="post-content"><h1>My Sample Post</h1>
+<p>Welcome to my sample blog post!</p>
+<h2>Introduction</h2>
+<p>This is just a test post to demonstrate the capabilities of Flask and Flask-FlatPages. With this setup, we can easily write content in Markdown and then render it as HTML on our blog. <code>this is some code.</code></p>
+<ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ol>
+<hr />
+<p><img alt="alt text" src="/static/imgs/gr-add-friends.png" /></p>
+<h3>Why Markdown?</h3>
+<p>Markdown is a lightweight markup language that allows you to write using an easy-to-read, easy-to-write plain text format. Here's a quick rundown of some features:</p>
+<ul>
+<li><strong>Bold</strong> and <em>italic</em> text.</li>
+<li>
+<p><a href="http://example.com">Links</a></p>
+</li>
+<li>
+<p>Bullet lists:</p>
+<ul>
+<li>Item 1</li>
+<li>Item 2</li>
+</ul>
+</li>
+</ul>
+<p>Numbered lists:</p>
+<ol>
+<li>First item</li>
+<li>Second item</li>
+</ol>
+<h4>Heading 4</h4>
+<p>Something is happening.</p>
+<blockquote>
+<p>This is a blockquote.</p>
+</blockquote>
+<h2>Conclusion</h2>
+<p>Flask-FlatPages is a great tool to create static pages or blogs using Flask and Markdown. Hope you found this sample post useful!</p>
+<div class="codehilite"><pre><span></span><code><span class="kd">var</span><span class="w"> </span><span class="nx">minExtraChar</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kd">function</span><span class="w"> </span><span class="p">(</span><span class="nx">s</span><span class="p">,</span><span class="w"> </span><span class="nx">dictionary</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">n</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">s</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span>
+<span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">dp</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nb">Array</span><span class="p">(</span><span class="nx">n</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">1</span><span class="p">).</span><span class="nx">fill</span><span class="p">(</span><span class="kc">Infinity</span><span class="p">);</span>
+<span class="w">    </span><span class="nx">dp</span><span class="p">[</span><span class="mf">0</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0</span><span class="p">;</span>
+
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kd">let</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1</span><span class="p">;</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="nx">n</span><span class="p">;</span><span class="w"> </span><span class="nx">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kd">const</span><span class="w"> </span><span class="nx">word</span><span class="w"> </span><span class="k">of</span><span class="w"> </span><span class="nx">dictionary</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="kd">const</span><span class="w"> </span><span class="nx">len</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">word</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span>
+<span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">i</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="nx">len</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nx">s</span><span class="p">.</span><span class="nx">substring</span><span class="p">(</span><span class="nx">i</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="nx">len</span><span class="p">,</span><span class="w"> </span><span class="nx">i</span><span class="p">)</span><span class="w"> </span><span class="o">===</span><span class="w"> </span><span class="nx">word</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="nx">dp</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">Math</span><span class="p">.</span><span class="nx">min</span><span class="p">(</span><span class="nx">dp</span><span class="p">[</span><span class="nx">i</span><span class="p">],</span><span class="w"> </span><span class="nx">dp</span><span class="p">[</span><span class="nx">i</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="nx">len</span><span class="p">]);</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">        </span><span class="nx">dp</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">Math</span><span class="p">.</span><span class="nx">min</span><span class="p">(</span><span class="nx">dp</span><span class="p">[</span><span class="nx">i</span><span class="p">],</span><span class="w"> </span><span class="nx">dp</span><span class="p">[</span><span class="nx">i</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mf">1</span><span class="p">]</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">1</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="nx">dp</span><span class="p">[</span><span class="nx">n</span><span class="p">];</span>
+<span class="p">};</span>
+</code></pre></div></div>
+    </div>
+</div>
+
+        </main>
+
+        <footer
+            class="bg-blue-900 text-slate-300 font-mono py-3 bottom-0 w-full sticky"
+        >
+            <div
+                class="container mx-auto max-w-5xl flex justify-between items-center"
+            >
+                <div class="social-container flex items-center">
+                    <a
+                        href="https://github.com/iikhan-dev"
+                        class="mr-4 hover:text-orange-500"
+                    >
+                        <i class="fab fa-github text-2xl"></i>
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/iikhan/"
+                        class="mr-4 hover:text-orange-500"
+                    >
+                        <i class="fab fa-linkedin text-2xl"></i>
+                    </a>
+                    <a
+                        href="https://ismailkhan.hashnode.dev/"
+                        class="hover:text-orange-500"
+                    >
+                        <i class="fa-brands fa-hashnode text-2xl"></i>
+                    </a>
+                </div>
+
+                <div class="px-3 flex items-center">
+                    <img
+                        src="/static/imgs/ik-icon.svg"
+                        alt="Ismail Khan SVG Image"
+                        class="w-6 h-6 mr-2"
+                    />
+                    &copy; 2023
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

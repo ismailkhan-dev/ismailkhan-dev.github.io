@@ -79,67 +79,43 @@
         <main class="container mx-auto max-w-5xl flex-grow">
             <!-- This is where the child content of the page will go -->
             
-
-<div class="container mx-auto mb-8">
-    <!-- Add margin to create even space between cards -->
-
-    <!-- Hero Section -->
-    <div class="bg-white rounded-lg shadow-lg p-6 mb-4 mt-4">
-        <div class="flex items-center mb-4">
-            <div>
-                <img
-                    src="/static/imgs/profile-pic.png"
-                    alt="Ismail Khan profile picture."
-                    class="mx-auto rounded-md h-42 w-32 mb-4 object-cover border-2 border-blue-900"
-                />
+<h1 class="text-2xl font-semibold text-gray-800 mb-4 my-8">📝 Posts</h1>
+<ul>
+    
+    <li>
+        <div class="bg-white rounded-lg shadow-md p-4 mb-4">
+            <a
+                href="/blog/sample-post/"
+                class="text-xl font-semibold text-blue-500 hover:underline hover:text-orange-500"
+                >My Sample Post Title, and the Best Way to Style It in Markdown</a
+            >
+            <div class="flex items-center text-gray-600 text-sm mt-2">
+                <span>Date: 2023-09-28</span>
+                <i class="fa-solid fa-diamond text-xs px-2 text-blue-500"></i>
+                <span class="text-gray-600 text-sm">
+                    Tags: 
+                    <span
+                        class="inline-block bg-blue-500 text-white rounded-full px-2 py-1 text-xs font-semibold"
+                        >python</span
+                    >
+                    
+                    <span
+                        class="inline-block bg-blue-500 text-white rounded-full px-2 py-1 text-xs font-semibold"
+                        > flask</span
+                    >
+                    
+                    <span
+                        class="inline-block bg-blue-500 text-white rounded-full px-2 py-1 text-xs font-semibold"
+                        > markdown</span
+                    >
+                    
+                </span>
             </div>
-            <h2
-                id="translated-text"
-                class="text-5xl font-medium text-blue-900 mb-4 ml-4"
-            >
-                👋 Hello! I'm Ismail. 😃
-            </h2>
+            <span class="text-md"> This is a sample blog post written in Markdown that demonstrates some basic formatting and functionality.</span>
         </div>
-
-        <p class="text-xl font-semibold text-gray-700 leading-normal">
-            Software Engineer from Toronto, Canada 🇨🇦 currently working as a
-            <strong>Senior Software Test Engineer</strong>. I specialize in web
-            development and test automation.
-        </p>
-        <p class="text-base text-gray-700 mt-4">
-            I primarily work with Python, TypeScript, Angular, and other major
-            front-end frameworks. You can check out my side-projects on my
-            GitHub. I also occasionally write about technology from time to
-            time. 💻
-        </p>
-
-        <p class="text-base text-gray-700 mt-4">
-            Thanks for visiting and happy coding! 🙌
-        </p>
-    </div>
-
-    <div class="bg-white rounded-lg shadow-lg p-6 mb-4">
-        <p class="text-base text-gray-700">
-            You can reach me on
-            <a
-                href="https://www.linkedin.com/in/iikhan/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="text-blue-500 hover:underline hover:text-orange-400"
-                >LinkedIn</a
-            >
-            or by email at
-            <a
-                href="mailto:ismailkhan.dev@gmail.com"
-                class="text-blue-500 hover:underline hover:text-orange-400"
-                >ismailkhan.dev[at]gmail.com</a
-            >. 🚀
-        </p>
-    </div>
-</div>
-
-<!-- Import the translateText.js script -->
-<script src="/static/js/translateText.js"></script>
+    </li>
+    
+</ul>
 
         </main>
 
